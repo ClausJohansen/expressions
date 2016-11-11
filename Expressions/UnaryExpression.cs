@@ -10,6 +10,11 @@ namespace Expressions
     {
         protected Expression expr;
 
+        public UnaryExpression(Expression expr)
+        {
+            this.expr = expr;
+        }
+
         public override double Evaluate()
         {
             return expr.Evaluate();

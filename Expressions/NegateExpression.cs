@@ -8,6 +8,8 @@ namespace Expressions
 {
     public class NegateExpression : UnaryExpression
     {
+        public NegateExpression(Expression expr) : base(expr) { }
+
         public override double Evaluate()
         {
             return expr.Evaluate() * -1;
