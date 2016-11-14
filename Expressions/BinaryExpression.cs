@@ -21,7 +21,7 @@ namespace Expressions
 
         public sealed override string ToString()
         {
-            return String.Format("{0} {1} {2}", left, OperatorSymbol, right);
+            return String.Format("{0} {1} {2}", left, OperatorSymbol, right); // ToString() kaldes automatisk / implicit på left og right, når vi refererer dem i en string.
         }
     }
 }
