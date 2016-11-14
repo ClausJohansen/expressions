@@ -10,7 +10,7 @@ namespace Expressions
     {
         static void Main(string[] args)
         {
-            // Create your expression here
+            // Create your expression here 
             List<Expression> expressions = new List<Expression>()
             {
                     new PlusExpression(new ConstantExpression(4), new ConstantExpression(6)),
