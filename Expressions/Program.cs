@@ -8,8 +8,6 @@ namespace Expressions
 {
     class Program
     {
-        // vs test
-
         static void Main(string[] args)
         {
             // Create your expression here
