@@ -46,8 +46,10 @@
     <Compile Include="BinaryExpression.cs" />
     <Compile Include="ConstantExpression.cs" />
     <Compile Include="Expression.cs" />
+    <Compile Include="ExpressionExtensions.cs" />
     <Compile Include="MinusExpression.cs" />
     <Compile Include="MultiplyExpression.cs" />
+    <Compile Include="MyExtensions.cs" />
     <Compile Include="NegateExpression.cs" />
     <Compile Include="PlusExpression.cs" />
     <Compile Include="Program.cs" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Expressions;
 
 namespace Expressions
 {
@@ -13,7 +14,7 @@ namespace Expressions
             // Create your expression here
             List<Expression> expressions = new List<Expression>()
             {
-                    new PlusExpression(new ConstantExpression(4), new ConstantExpression(6)),
+                    new PlusExpression(4d.ToExpression(), 6d.ToExpression()),
                     new MinusExpression(new ConstantExpression(4), new ConstantExpression(6)),
                     new MultiplyExpression(new ConstantExpression(4), new ConstantExpression(6)),
 
@@ -33,6 +34,8 @@ namespace Expressions
                 // ... and then the result of the evaluating
                 Console.WriteLine(expr.Evaluate());
             }
+
+            Console.WriteLine(7.Times1000());
 
             Console.ReadKey();
         }
